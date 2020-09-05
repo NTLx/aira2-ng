@@ -23,3 +23,9 @@ wjg1101766085/aira2-ng:0.0.1
 
 * `http://host:6880` 打开 web 管理界面
 * `http://host:6888` 浏览下载目录
+
+### 跨平台
+
+默认基于 amd64 架构构建的 alpine 编译，如需更换平台，更新 alpine 版本即可
+
+> 例如树莓派 4B，在目前的官方系统下可更换为 `arm32v7/alpine`，等以后支持 64 位了（目前 Ubuntu 20.04 Server 已适配 64 位）可以换成 `arm64v8/alpine`
